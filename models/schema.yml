@@ -5,4 +5,5 @@ sources:
     schema: meteorological_hazards_project
     tables: 
       - name: 2000_2024_disasters
+      - name: cities
         
