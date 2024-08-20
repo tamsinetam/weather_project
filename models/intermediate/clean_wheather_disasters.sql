@@ -28,3 +28,5 @@ WITH updated_disasters AS (
 SELECT 
     * EXCEPT(event_name, origin, Declaration, Appeal, Location)
 FROM updated_disasters
+LEFT JOIN {{ ref('stg_eloise-challenge-1-sql__cities') }}
+USING (disno_)
