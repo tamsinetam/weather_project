@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: eloise-challenge-1-sql
+    schema: meteorological_hazards_project
+    tables: 
+      - name: 2000_2024_disasters
+        
