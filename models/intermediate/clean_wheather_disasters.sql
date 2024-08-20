@@ -30,3 +30,10 @@ SELECT
 FROM updated_disasters
 LEFT JOIN {{ ref('stg_eloise-challenge-1-sql__cities') }}
 USING (disno_)
+
+
+
+
+
+
+
