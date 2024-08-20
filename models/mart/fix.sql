@@ -1,0 +1,1 @@
+select * from {{ ref('clean_wheather_disasters') }}
