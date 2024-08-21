@@ -4,6 +4,7 @@ SELECT
   disaster_type,
   disaster_subtype,
   country,
+  region,
   magnitude,
   magnitude_scale,
   start_year,
