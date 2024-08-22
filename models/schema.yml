@@ -7,4 +7,5 @@ sources:
       - name: 2000_2024_disasters
       - name: cities
       - name: animation_map_clean
+      - name: magnitude
         
