@@ -9,4 +9,5 @@ sources:
       - name: animation_map_clean
       - name: global_deaths_geo_en_cities
       - name: magnitude
+      - name: magnitude_new
         
