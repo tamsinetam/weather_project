@@ -9,4 +9,4 @@ disno_
 ,start_month
 ,total_deaths AS total_dead
 FROM {{ ref('clean_wheather_disasters') }}
-WHERE total_deaths is not null 
+WHERE total_deaths is not null

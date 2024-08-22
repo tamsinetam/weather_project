@@ -7,8 +7,7 @@ region
 ,disaster_type
 ,disaster_subtype 
 ,SUM(total_dead) AS total_dead
-,SUM(total_injured) AS total_injured
 FROM {{ ref('global_deaths_injured_wheather_disasters') }}
 GROUP BY start_month,start_year, region, country, disaster_type, disaster_subtype 
 --I exclude the null values as they add nothing on the map chart I'm building on Looker Studio
-HAVING total_dead is not null AND total_injured is not null
+HAVING total_dead is not null
