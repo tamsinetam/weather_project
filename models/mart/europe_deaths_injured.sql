@@ -7,7 +7,6 @@ region
 ,disaster_type
 ,disaster_subtype 
 ,SUM(total_dead) AS total_dead
-,SUM(total_injured) AS total_injured
 FROM {{ ref('global_deaths_injured_wheather_disasters') }}
 WHERE region = 'Europe'
 GROUP BY start_month,start_year, region, country, disaster_type, disaster_subtype 
