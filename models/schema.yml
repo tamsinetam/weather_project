@@ -10,8 +10,6 @@ sources:
       - name: global_deaths_geo_en_cities
       - name: magnitude
       - name: magnitude_new
-<<<<<<< HEAD
-      
-=======
->>>>>>> 154b83909a5b189b2d65759fc382af5289794a72
+      - name: magnitude_final
+
         
