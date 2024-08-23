@@ -11,5 +11,6 @@ sources:
       - name: magnitude
       - name: magnitude_new
       - name: magnitude_final
+      - name: coordinates_cities_countries
 
         
