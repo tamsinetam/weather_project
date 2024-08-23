@@ -8,7 +8,6 @@ d.updated_event_name
 ,d.country
 ,d.subregion
 ,d.region
-,d.city
 ,d.disno_
 ,m.standardized_magnitude
 FROM {{ ref('clean_wheather_disasters') }} AS d 
