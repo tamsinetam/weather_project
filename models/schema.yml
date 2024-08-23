@@ -10,4 +10,6 @@ sources:
       - name: global_deaths_geo_en_cities
       - name: magnitude
       - name: magnitude_new
+      - name: magnitude_final
+
         
