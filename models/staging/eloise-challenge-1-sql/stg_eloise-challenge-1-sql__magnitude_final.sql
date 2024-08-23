@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('eloise-challenge-1-sql', 'magnitude_new') }}
+    select * from {{ source('eloise-challenge-1-sql', 'magnitude_final') }}
 
 ),
 
@@ -10,7 +10,7 @@ renamed as (
 
     select
         disno_,
-        magnitude_standardized
+        standardized_magnitude
 
     from source
 
