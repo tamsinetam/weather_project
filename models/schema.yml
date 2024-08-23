@@ -6,4 +6,8 @@ sources:
     tables: 
       - name: 2000_2024_disasters
       - name: cities
+      - name: animation_map_clean
+      - name: global_deaths_geo_en_cities
+      - name: magnitude
+      - name: magnitude_new
         
