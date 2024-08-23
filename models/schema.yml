@@ -12,5 +12,6 @@ sources:
       - name: magnitude_new
       - name: magnitude_final
       - name: coordinates_cities_countries
+      - name: damages_raw
 
         
