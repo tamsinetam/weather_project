@@ -5,12 +5,8 @@ SELECT
   wd.disaster_subtype,
   wd.country,
   wd.region,
-  wd.magnitude,
-  wd.magnitude_scale,
-  wd.start_year,
-  wd.start_month,
-  wd.start_day,
   wd.city,
+  wd.total_deaths,
   m.standardized_magnitude,
   CASE
     -- If month is missing, return NULL
